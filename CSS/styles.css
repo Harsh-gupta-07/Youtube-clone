@@ -75,13 +75,14 @@
 }
 
 .video-time {
+  opacity: 0.9;
   background-color: black;
   color: white;
   position: absolute;
   right: 8px;
   bottom: 12px;
-  font-family: Roboto, Arial;
-  font-weight: 600;
+  font-family: Roboto, Arial, sans-serif;
+  font-weight: bold;
   font-size: 14px;
   padding-left: 4px;
   padding-right: 4px;
