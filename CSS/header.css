@@ -52,6 +52,10 @@
   border: none;
 }
 
+.youtube-logo-button:hover {
+  cursor: pointer;;
+}
+
 .youtube-icon {
   padding-top: 4px;
   height: 22px;
@@ -190,6 +194,10 @@
   border: none;
   height: 40px;
   width: 40px;
+}
+
+.my-chan:hover{
+  cursor: pointer;
 }
 
 .right-channel {
