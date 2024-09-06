@@ -1,0 +1,123 @@
+/* entire vid div */
+.first-div{
+  width: 100%;
+}
+
+.first-div:hover {
+  cursor: pointer;
+}
+
+.thumbnail {
+  width: 100%;
+  border-radius: 5px;
+  margin-top: 0px;
+  min-width: 250px;
+}
+
+/* video title */
+.title{
+  font-family: "Roboto", system-ui;
+  font-size: 15px;
+  font-weight: bold;
+  width: 100%;
+  max-height: 35px;
+  margin-top: 0;
+  margin-bottom: 5px;
+  overflow: hidden;
+  text-overflow:ellipsis
+
+}
+
+/* channel name */
+.channel-ka-nam {
+  font-family: "Roboto", system-ui;
+  font-size: 12px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-weight: 500;
+  color: gray
+}
+
+/* video date, views etc. */
+.channel-etc {
+  width: 100%;
+  font-family: "Roboto", system-ui;
+  font-size: 12px;
+  color: gray;
+  font-weight: 500;
+  margin-top: 3px;
+  margin-bottom: 3px;
+}
+
+.channel-logo {
+  display: inline-block;
+  width: 100%;
+  vertical-align: top;
+}
+
+/* channel logo */
+.dp{
+  border-radius: 18px;
+  width: 100%;
+}
+
+/* video title, date, views etc. */
+.video-info{
+  display: inline-block;
+  width: 100%;
+  vertical-align: top;
+  margin-left: 7px;
+}
+
+/* video title, date, views etc. */
+.everything {
+  margin-top: 8px;
+}
+
+.video-time {
+  background-color: black;
+  color: white;
+  position: absolute;
+  right: 8px;
+  bottom: 12px;
+  font-family: Roboto, Arial;
+  font-weight: 600;
+  font-size: 14px;
+  padding-left: 4px;
+  padding-right: 4px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  border-radius: 2px;
+}
+
+.end-text {
+  
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  font-size: 36px;
+}
+
+.end-button {
+  font-size: 18px;
+  display: flex;
+  flex:1;
+  justify-content: center;
+  margin-top: -25px;
+}
+
+.button-end {
+  margin-right: 5px;
+  color: black;
+  text-decoration: none;
+}
+
+.button-end:hover{
+  color: blue;
+}
+
+.title-grid {
+  display: grid; 
+  grid-template-columns: 36px 1fr; 
+  column-gap: 5px;
+}

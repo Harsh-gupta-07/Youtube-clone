@@ -1,0 +1,45 @@
+.left-header{
+  position: fixed;
+  background-color: skyblue;
+  top: 60px;
+  bottom: 0;
+  left: 0;
+  width: 64px;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-content: center;
+  padding-right: 4px;
+}
+
+.left-icon {
+  height: 74px;
+  position: relative;
+}
+
+.left-buttons{
+  height: 74px;
+  border-radius: 5px;
+  width: 100%;
+  padding-right: 0;
+  padding-left: 0;
+  background-color: white;
+  border: none;
+}
+
+.left-buttons:hover{
+  background-color: rgb(240, 240, 240);
+  cursor: pointer;
+}
+.left-img{
+  height: 24px;
+  width: 24px;
+}
+
+.text{
+  font-size: 10px;
+  font-family: Roboto, Arial;
+}
+
+
